@@ -45,17 +45,4 @@ public:
     void track();
     std::vector<double> report();
 };
-
-// class KFTracker{
-// public:
-//     KFTracker();
-//     void track(const std::vector<LidarClusterProperties> &property_set);
-//     // void tracking_cb();
-//     std::vector<LidarClusterProperties> prevClusterCenters;
-//     bool firstFrame = true;
-//     std::vector<int> objID;
-//     std::vector<cv::KalmanFilter> kf_collection;
-// };
-
-//std::pair<int, int> findIndexOfMin(std::vector<std::vector<float>> distMat);
 #endif
